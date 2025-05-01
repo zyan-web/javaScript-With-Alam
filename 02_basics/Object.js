@@ -1,5 +1,5 @@
 
-//singleton , kesi b construcyor sy bnana , single instances 
+//singleton , kesi b constructor sy bnana , single instances 
 //literal sy singleton nhi bn sakta
 
 
