@@ -29,7 +29,22 @@ JsUser.email = "khanwazir2gmail.com"
 
 //how to lock value
 
-Object.freeze(JsUser)//  no change will be in JsUser value coz its been frezeed
+// Object.freeze(JsUser)//  no change will be in JsUser value coz its been frezeed
+
+
+JsUser.greeting = function(){
 
 
 
+}
+
+console.log(JsUser.greeting());
+
+JsUser.greeting2 = function(){
+
+console.log(`Hello js user ${this.name}`); // reference to any elements (object) in an object
+
+}
+
+console.log(JsUser.greeting2());
+console.log("Hello js user");
