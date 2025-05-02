@@ -20,4 +20,48 @@ if(true) { //Scope of if condiition  >>>>>>>> Block scope due inside scope>>> Ca
 // console.log(a);
 
 
-//============== Scope level ... Nested Scope
+//============== Scope level ... Nested Scope ===========
+
+
+
+function one(){
+const username = "Alam"
+
+function two(){
+const website = "Youtube"
+console.log(username);
+
+
+}
+// console.log(website);
+two()
+}
+
+// one()
+
+if(true){
+const  username = "Alam"
+if(username==="Alam"){
+    const website = " youtube"
+    // console.log(username + website);
+    
+}
+// console.log(website);
+
+}
+// console.log(username);
+
+// +++++++++++++++++++ Interesting +++++++++++++++++++
+
+console.log(addone(5));
+function addone(num){
+return num + 1
+
+}
+
+addTwo(5)
+
+const addTwo = function(num){ //Expression
+
+    return  num + 2
+}
