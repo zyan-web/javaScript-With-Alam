@@ -1,2 +1,3 @@
 # javaScript-With-Alam
-A code repo for javaScript series at Alam waziri Code hose 
+A code repo for javaScript series with Alam waziri.
+Chai aur code
