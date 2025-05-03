@@ -1,0 +1,30 @@
+Global execution context {}//THIS
+Function execution text >>>> Global execution context property
+
+Js code run in 2 phases
+
+1 ) Memory phase or Creation Phase  .... Jo declare kia unky leya jaga allocate krna ... Memory ma
+2 ) Execution Phase 
+
+Step 1 : Sab sy pahle Global execution or global enviro
+har code Global executionsy he run hoga
+
+step 2: Memory Phase
+Sary variable ko ikata kr k rakka jata hai 
+
+suppsoe 
+
+let val1 undefined
+let val2 undefined
+addnum()... Defination... Passing value
+result1 ... undefined
+result2... undefined
+
+
+Step 3 or Phase
+
+Execution phase:
+take
+ val1 = 10
+val2 = 5
+
