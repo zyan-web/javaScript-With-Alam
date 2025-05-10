@@ -9,7 +9,7 @@ const arr = [1,2,3,4,5]
 
 for (const num of arr) {
 
-    // num >> kis object pe iterate lgana chahty hain... i.e object pe , array pe or string pe iterater lgana
+    // num >> kis object pe iterate lgana chahty hain... i.e object pe , array pe or string pe iterate lgana
     //object >> kis object pe ap loop lgana chahty hai ... Broader term... i.e arr
 
     // console.log(num);
@@ -37,11 +37,22 @@ map.set('USA', "United state of America")
 map.set('Fr' ,"France")
 map.set('IN' , "India")
 
-console.log(map);
+// console.log(map);
 
 //===== Can we apply loop
 
-for (const key of map) {
-    console.log(key);
+for (const [key , value] of map) {
+    console.log(key , ":-" , value );
     
+} 
+
+const myobject = {
+'game1' : 'NFS',
+'game2' : 'Spiderman'
+
+}
+
+for (const [key , value] of myobjectobject) {
+
+    // console.log(key , ":-" , value);
 }
